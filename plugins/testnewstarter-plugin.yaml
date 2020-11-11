@@ -1,0 +1,7 @@
+image: jwhite101/test-new-starter:0.0.1-SNAPSHOT
+dbms: mysql
+healthCheckPath: "/management/health"
+roles:
+  - "testNewStarter-admin"
+  - "conf-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here

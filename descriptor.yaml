@@ -1,0 +1,13 @@
+code: testnewstarter-bundle
+description: This is the testNewStarter bundle
+
+components:
+  plugins:
+    - plugins/testnewstarter-plugin.yaml
+
+  widgets:
+    - ui/widgets/conf/tableWidget/conf-table-widget-descriptor.yaml
+    - ui/widgets/conf/detailsWidget/conf-details-widget-descriptor.yaml
+    - ui/widgets/conf/formWidget/conf-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
